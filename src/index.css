@@ -1,0 +1,70 @@
+body {
+  color: #45474B;
+  background-color: #F5F7F8;
+  font-family: 'Segoe UI';
+}
+
+main {
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+div.post {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 20px
+}
+
+div.post div.texts h2 {
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+div.post p.info {
+  margin: 6px 0;
+  font-size: .7rem;
+  color: #495E57;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}
+
+div.post p.info a.author {
+  color: #45474B;
+  
+}
+
+div.post p.summary {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
